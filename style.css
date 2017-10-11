@@ -9,7 +9,9 @@ img, embed, object, video{
 	max-width: 100%;
 }
 
-
+header, figure, figcaption {
+  display: block;
+}
 
 
 
@@ -48,7 +50,15 @@ h4{
 }
 
 .work-group{
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
@@ -86,8 +96,16 @@ a{
 	}
 
 	.work-group{
-			display: flex;
-			flex-wrap: wrap;
+				-webkit-display: flex;
+				-moz-display: flex;
+				-ms-display: flex;
+				-o-display: flex;
+				display: flex;
+				-webkit-flex-wrap: wrap;
+				-moz-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				-o-flex-wrap: wrap;
+				flex-wrap: wrap;
 }
 
 	.work{
@@ -105,8 +123,16 @@ a{
 	}
 
 	.work-group{
-			display: flex;
-			flex-wrap: wrap;
+				-webkit-display: flex;
+				-moz-display: flex;
+				-ms-display: flex;
+				-o-display: flex;
+				display: flex;
+				-webkit-flex-wrap: wrap;
+				-moz-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				-o-flex-wrap: wrap;
+				flex-wrap: wrap;
 	}
 
 	.work{

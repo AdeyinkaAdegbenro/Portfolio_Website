@@ -1,6 +1,6 @@
 # Portfolio_Website
 
- This is a persdonal portfolio web page.
+ This is a personal portfolio web page.
 
 # Installation
 
