@@ -1,22 +1,26 @@
-html{
+html {
 	box-sizing: border-box;
-	/*margin:0 11em;*/
 	font-size: 24px;
 }
 
 
-img, embed, object, video{
+img,
+embed,
+object,
+video {
 	max-width: 100%;
 }
 
-header, figure, figcaption {
-  display: block;
+header,
+figure, 
+figcaption {
+	display: block;
 }
 
 
 
 
-.logo{
+.logo {
 	width: 60px;
 	height: 60px;
 	border-radius:50%;
@@ -26,15 +30,13 @@ header, figure, figcaption {
 }
 
 .name {
-	
-	float: right;
-	
+	float: right;	
 }
 
 
 
 
-hr{
+hr {
 	clear:both;
 	background-color:#7d97ad;
 	width:100%;
@@ -42,14 +44,13 @@ hr{
 	height: 0.2em;
 }
 
-h4{
-
+h4 {
 	font-size: 30px;
 	text-align: center;
 	color: #ccc;
 }
 
-.work-group{
+.work-group {
 	-webkit-display: flex;
 	-moz-display: flex;
 	-ms-display: flex;
@@ -63,39 +64,36 @@ h4{
 }
 
 
-.work{
-	
+.work {
 	width: 100%;
-
 }
 
 
 
 
-figcaption{
+figcaption {
 	font-size: 20px;
 	text-align: center;
 	color: #2d3c49;
 }
 
-a{
+a {
 	text-decoration: none;
 }
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) {
 
-	h4{
+	h4 {
 		clear: right;
 		text-align: left;
-
 	}
 
-	figcaption{
+	figcaption {
 		font-size: 30px;
 	}
 
-	.work-group{
+	.work-group {
 				-webkit-display: flex;
 				-moz-display: flex;
 				-ms-display: flex;
@@ -105,24 +103,24 @@ a{
 				-moz-flex-wrap: wrap;
 				-ms-flex-wrap: wrap;
 				-o-flex-wrap: wrap;
-				flex-wrap: wrap;
-}
+				flex-wrap: wrap;	
+	}
 
-	.work{
+	.work {
 		width: 35%;
 	}
 
 	
 }
 
-@media screen and (min-width: 996px){
+@media screen and (min-width: 996px) {
 
-	figcaption{
+	figcaption {
 		text-align: left;
 		font-size: 18px;
 	}
 
-	.work-group{
+	.work-group {
 				-webkit-display: flex;
 				-moz-display: flex;
 				-ms-display: flex;
@@ -135,13 +133,13 @@ a{
 				flex-wrap: wrap;
 	}
 
-	.work{
+	.work {
 		width: 24%;
 	}
 
-		html{
-		margin: 0 200px 0 200px;
-	}
+		html {
+			margin: 0 200px;
+		}
 
 
 
