@@ -1,0 +1,148 @@
+html {
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+
+img,
+embed,
+object,
+video {
+	max-width: 100%;
+}
+
+header,
+figure, 
+figcaption {
+	display: block;
+}
+
+
+
+
+.logo {
+	width: 60px;
+	height: 60px;
+	border-radius:50%;
+	float:left;
+	margin-top: 40px; 
+
+}
+
+.name {
+	float: right;	
+}
+
+
+
+
+hr {
+	clear:both;
+	background-color:#7d97ad;
+	width:100%;
+	float: right;
+	height: 0.2em;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+	color: #ccc;
+}
+
+.work-group {
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+
+.work {
+	width: 100%;
+}
+
+
+figcaption {
+	font-size: 20px;
+	text-align: center;
+	color: #2d3c49;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+@media screen and (min-width:600px) {
+
+	h4 {
+		clear: right;
+		text-align: left;
+	}
+
+	figcaption {
+		font-size: 30px;
+	}
+
+	.work-group {
+		-webkit-display: flex;
+		-moz-display: flex;
+		-ms-display: flex;
+		-o-display: flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;	
+	}
+
+	.work {
+		width: 35%;
+	}
+
+	
+}
+
+@media screen and (min-width: 996px) {
+
+	figcaption {
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.work-group {
+		-webkit-display: flex;
+		-moz-display: flex;
+		-ms-display: flex;
+		-o-display: flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.work {
+		width: 24%;
+	}
+
+	html {
+		margin: 0 200px;
+	}
+
+
+
+
+}
+
+
+
